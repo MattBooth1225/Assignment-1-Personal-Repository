@@ -132,3 +132,6 @@ EMAIL_HOST_USER = 'pythonemailtester@gmail.com'
 EMAIL_HOST_PASSWORD = 'Maverick1!'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+DEBUG = False
